@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-auth.js"></script>
+    <script>
+      var config = {
+          apiKey: "AIzaSyDss8rqNgmzSq3SBOKl26wCoKQv2CEiOUs",
+          authDomain: "jaktenpadenforsv-1553555921697.firebaseapp.com",
+          databaseURL: "https://jaktenpadenforsv-1553555921697.firebaseio.com",
+          projectId: "jaktenpadenforsv-1553555921697",
+          storageBucket: "jaktenpadenforsv-1553555921697.appspot.com",
+          messagingSenderId: "751627921564"
+      };
+
+      firebase.initializeApp(config);
+      const auth = firebase.auth();
+
+    </script>
+</head>
+<body class="grey lighten-4">
+    <nav class="z-depth-0 grey lighten">
+      <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right  hide-on-med-and-down">
+         <li class="logged-out">
+            <a href="#" class="grey-text modal-trigger" data-target="modal-login">Login</a>
+         </li>
+      </ul>
+      </div>
+    </nav>
+  <div id="modal-login" class="modal" >
+    <div class="modal-content">
+      <h2>Login</h2>
+      <form id="login-form">
+        <div class="input-field">
+          <input type="email" id="login-email" required>
+          <label for="login-email">E-mail</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="login-password" required>
+          <label for="login-password">Password</label>
+        </div>
+        <button class="btn yellow  darken-2 z-depth-0">Login</button>
+      </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="login.js" type="text/javascript"></script>
+</body>
+</html>

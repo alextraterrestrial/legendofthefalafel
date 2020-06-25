@@ -1,0 +1,45 @@
+* //   Fixa https-redirect
+
+* //   Fixa Redeem codes
+
+* //   Fixa validering och felmeddelande av formulär
+
+* //   Låsa allt när spelet är slut
+
+* //   Registrering av vilka / hur många falaflar varje lag hittat
+
+* //   Skapa funktioner / interface för att skapa targets
+
+* Skapa interface för scoreboard 
+
+* //   Fixa geolocation, inställningar
+
+* //   Funktionaliteten i redem codes, meddelanden etc
+
+* //   Meddelande funktion, för att kunna avsluta spelet
+
+* //    Fixa en legend för de olika symbolerna
+
+* //   Fixa labels för falafeldealers
+
+* //   Fixa texten i redeem code modal
+
+* //   Fixa CSS, anpassa bättre till skärm
+
+* //   Sign out funktion
+
+* //   Styling, färger, typsnitt etc
+
+* //   Begränsa inloggning på flera devices samtdigt
+
+* //   Begränsa åtkomst till spelet från desktop
+
+* //   Kompass
+
+* //   Skapa redeem codes
+    
+* //   Lägga spelet i en php fil, som släpper spelet vid 17.15.
+
+* Placera targets i en google maps 
+
+* Placera ut dealers på kartan!!!

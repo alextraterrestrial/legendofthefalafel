@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>The legend of the falafel</title>
+      <meta name="viewport" content="initial-scale=1.0">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-auth.js"></script>
+      <script>
+      //Initialize firebase
+      var config = {
+            apiKey: "AIzaSyDss8rqNgmzSq3SBOKl26wCoKQv2CEiOUs",
+            authDomain: "jaktenpadenforsv-1553555921697.firebaseapp.com",
+            databaseURL: "https://jaktenpadenforsv-1553555921697.firebaseio.com",
+            projectId: "jaktenpadenforsv-1553555921697",
+            storageBucket: "jaktenpadenforsv-1553555921697.appspot.com",
+            messagingSenderId: "751627921564"
+      };
+      //Create references to firestore and auth
+      firebase.initializeApp(config);
+      const db = firebase.firestore();
+      const auth = firebase.auth();
+
+      // auth.signOut();
+      </script>
+   </head>
+   <body>
+      <div id="modal-login" class="modal" >
+         <div class="modal-content">
+            <h3>Login</h3>
+            <form id="login-form">
+                  <div class="input-field">
+                  <input type="email" id="login-email" required>
+                  <label for="login-email">E-mail</label>
+                  </div>
+                  <div class="input-field">
+                  <input type="password" id="login-password" required>
+                  <label for="login-password">Password</label>
+                  </div>
+                  <button id="login-btn" class="btn darken-2 z-depth-0">Login</button>
+            </form>
+            <div id="login-error" class="error-message"></div>
+         </div>
+      </div>
+      
+      <div id="container" style="display: none">
+         <div id="header">
+               <div id="teamName-container">
+                  <h4 class="userData">Team Name</h4>
+                  <p id="teamName"></p>
+               </div>
+            <img id="header-logo" src="icons/logo_small_color.png">
+            <div id="scoreContainer">
+                  <h4 class="userData">Score</h4>
+                  <p id="score"></p>
+               </div>
+         </div>
+         <div id="dashBoard">
+            <div id="redeemCode-modal-trigger" class="modal-trigger">
+               <p>Redeem code</p>
+            </div>
+            <div id="legend-modal-trigger" class="modal-trigger">
+               <img src="icons/info-icon.png">
+            </div>
+            <div id="logout-modal-trigger" class="modal-trigger">
+               <p>signout</p>
+            </div>
+         </div> 
+         <div id="signout-modal" class="modal open">
+               <div class="modal-content" id="logout-content">
+                  <h3>Do you want to sign out?</h3>
+                  <button id="signOutBtn" class="btn">Sign out</button>
+               </div>
+         </div>
+         <div id="info-container" class="modal">
+            <div id="info-content" class="modal-content"></div>
+         </div>
+         <div id="alert-container" class="modal">
+            <div id="alert-content" class="modal-content"> 
+            </div>
+         </div>
+         <div id="message-modal" class="modal">
+            <div id="message-content" class="modal-content"> 
+         </div>
+         </div>
+         <div id="legend-modal" class="modal">
+            <div id="legend-content" class="modal-content"> 
+               <div class="grid">
+                  <h3>Map legend</h3>
+                  <img class="legend-img" src="icons/red_piece.png">
+                  <p class="legend-text">You</p>
+                  <img class="legend-img" src="icons/Untitled-1.svg">
+                  <p class="legend-text">Other players</p>
+                  <img class="legend-img" src="icons/logo_small_color.png">
+                  <p class="legend-text">Hidden falafel</p>
+                  <img class="legend-img" src="icons/dealer.png">
+                  <p class="legend-text">Falafel dealer</p>
+                  <img class="legend-img" src="icons/brewdogLogo.png">
+                  <p class="legend-text">Brewdog bar</p>
+               </div>
+            </div>
+         </div>
+         <div id="scanner-container" class="modal"> 
+            <div id="scanner-content" class="modal-content">
+               <form id="openTargetForm">
+                  <input type="hidden" id="openTargetId">
+                  <label for="code">Enter the code to unlock the falafel</label>
+                  <input id="code" type="text">
+                  <input type="submit" value="Open falafel" class="btn" id="openTarget">
+               </form>
+            </div>
+         </div>
+         <div class="modal" id="redeemCode-container">
+            <div class="modal-content" id="redeemCode-content">
+               <form id="redeemCode-form">
+                  <label for="redeemCode">Enter the codes bought from a dealer here to get your points</label>
+                  <input id="redeemCode" type="text">
+                  <input type="submit" value="Get points" class="btn" id="openTarget">
+               </form>
+               <div id="redeemMessage"></div>
+            </div>
+         </div>
+         <div id="map"></div>
+      </div>   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="main.js" ></script>
+      <script src="auth.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsBEUbAuVf9qDxe9EbYDuw9GEKk9PE8Mk" async defer></script>
+   </body>
+</html>

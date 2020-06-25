@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'MainFont';
+    src: url('fonts/Indiana.woff') format('woff'),
+    url('fonts/Indiana.woff2') format('woff2') /* IE6-IE8 */
+  };
+
+  h1, h2, h3, h4{
+      font-family: 'MainFont';
+  }
+
+.btn{
+    background-color: #348B8E !important;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 120px auto;
+    position: relative;
+}
+
+.error-message{
+    color: #DF3C3D;
+    font-family: 'MainFont';
+    font-size: 14px;
+}
+#header{
+    grid-row: 1;
+    background-color: #EEB378;
+    /* box-shadow: 0px 10px 8px 8px #EEB378; */
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    justify-items: center;
+    align-items: center;
+}
+#header > * {
+
+}
+.userData{
+    font-family: 'MainFont';
+    font-size: 10px;
+}
+#map {
+  grid-row: 2/3;
+  height: 100%;
+  width: 100%
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#dashBoard{
+    display: flex;
+    justify-content: space-around;
+    /* grid-template-columns: auto 1fr 1fr; */
+    justify-items: center;
+    /* height: 55px; */
+    width: 100%;
+    padding: 5px;
+    z-index: 420;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    /* background-color: #EEB378; */
+    /* box-shadow: 0px -10px 20px -10px rgba(244,214,173,0.9); */
+    /* border-bottom: 4px solid #1B5948; */
+    font-family: 'MainFont';
+}
+#dashBoard div{
+    background-color: #EEB378;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dashBoard img{
+    width: 80%;
+}
+.disabled{
+    opacity: 0.3;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    align-items: center;
+    width: 100%;
+    line-height: 1;
+}
+.grid > *:first-child{
+    grid-column: 1/3;
+    text-align: center;
+}
+
+#header-logo{
+    height: 90px;
+}
+
+.infoModuleHeadline h4{
+    font-size: 2rem !important;
+}
+
+.legend-img{
+    height: 35px;
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+
+.legend-text{
+    font-family: 'MainFont';
+    font-size: 18px;
+    grid-column: 2/3;
+}
+#login-form{
+    padding: 10px 0px 10px 0px;
+}
+/* #redeemCode-modal-trigger{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    z-index: 420;
+} */
+#map{
+    width: 100%;
+}
+#map > div{
+    width: 100%;
+    height: 100%;
+}
+
+#score{
+    color: #DF3C3D;
+    font-family: 'MainFont';
+    font-size: 18px;   
+}
+#scoreContainer{
+    height: 100%;
+}
+#teamName-container{
+    /* align-self: center; */
+    padding-left: 14px;
+    height: 100%;
+}
+
+#teamName{
+    font-family: 'MainFont';
+    color: #348B8E;
+    font-size: 18px;
+}
+
+
+
+/*For mobile only*/
+@media screen and (max-width: 667px){
+    .modal{
+        width: 100% !important;
+        /* top: 20% !important; */
+     }
+}
+
+
+/*For desktop view only*/
+@media screen and (min-width: 668px) {
+    body{
+        display: grid;
+        grid-template-columns: auto 375px auto;
+        grid-template-rows: auto 667px auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container{
+        width: 100%;
+        height: 100vh;
+    }
+}

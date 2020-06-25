@@ -1,0 +1,727 @@
+
+Bread Recipe : 55.599097, 12.998071, ta70QsRJYy8mi2QSDSwY, 1234
+Falafel recipe: 55.603136, 12.985953, DpGXreYrT6iAG9A33l4j, 6666
+Hotsauce recipe: 55.604497, 13.009273, 7OwfSV0sKE6WA8qs903h, 1337
+Garlic sauce recipe: 55.589326, 13.004263, jafmAs32a5cnWKOvyICX, 0420
+
+(46) […]
+​
+//   0: {…}
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.607987, _long: 13.010419 }
+​​
+targetKey: 2952
+​​
+<prototype>: Object { … }
+​
+//   1: {…}
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.602092, _long: 13.003382 }
+​​
+targetKey: 8938
+​​
+<prototype>: Object { … }
+​
+//   2: {…}
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.6025, _long: 12.999022 }
+​​
+targetKey: 2802
+​​
+<prototype>: Object { … }
+​
+//   3: {…}
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.5942988, _long: 13.010156799999999 }
+​​
+targetKey: 7941
+​​
+<prototype>: Object { … }
+​
+//   4: {…}
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.603729, _long: 13.001151 }
+​​
+targetKey: 3405
+​​
+<prototype>: Object { … }
+​
+//   5: {…}
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.607395, _long: 13.00839 }
+​​
+targetKey: 9130
+​​
+<prototype>: Object { … }
+​
+//   6: {…}
+​​
+contains: Object { cash: 1500 }
+​​
+id: "hCW10wDpOTP489xAI6NE"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.599641, _long: 12.995723 }
+​​
+targetKey: 1370
+​​
+<prototype>: Object { … }
+​
+//   7: {…}
+​​
+contains: Object { cash: 1500 }
+​​
+id: "ZK0X39FrefIWcuG5gg44"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.597432, _long: 12.9924622 }
+​​
+__________________________________________________________________targetKey: 7985
+​​
+<prototype>: Object { … }
+​
+//   8: {…}
+​​
+contains: Object { cash: 1000 }
+​​
+id: "ReyTFv5k283yBJwXDw3o"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.602847, _long: 13.001852 }
+​​
+targetKey: 1434
+​​
+<prototype>: Object { … }
+​
+//   9: {…}
+​​
+contains: Object { cash: 1000 }
+​​
+id: "j2iqlFj1aXBDBG2NU86E"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.6092002, _long: 12.9928478 }
+​​
+targetKey: 4909
+​​
+<prototype>: Object { … }
+​
+//   10: {…}
+​​
+contains: Object { cash: 1000 }
+​​
+id: "1mTUGqwaGSCCfpbun3hx"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.5946362, _long: 12.997820299999999 }
+​​
+targetKey: 6969
+​​
+<prototype>: Object { … }
+​
+//   11: {…}
+​​
+contains: Object { cash: 1000 }
+​​
+id: "ej8ZROZw04Rw6jPIFfB8"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.6004234, _long: 12.9903637 }
+​​
+targetKey: 3895
+​​
+<prototype>: Object { … }
+​
+//  12: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "QfLpysBkhunVtBLgV5OF"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.596665, _long: 12.995919 }
+​​
+targetKey: 5578
+​​
+<prototype>: Object { … }
+​
+//   13: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "uk6cGwtJE1oZT87qOO85"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.609497, _long: 13.013653 }
+​​
+targetKey: 1242
+​​
+<prototype>: Object { … }
+​
+//   14: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "bzVQfKXfEcYQtCdPVCak"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.594465, _long: 13.013256 }
+​​
+targetKey: 2731
+​​
+<prototype>: Object { … }
+​
+//   15: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "g700v911G73FQka31RXn"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.6015057, _long: 12.9951964 }
+​​
+targetKey: 8213
+​​
+<prototype>: Object { … }
+​
+//   16: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "aP1ZwxZLDZ4q4KxClzVd"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.606177, _long: 13.000123 }
+​​
+targetKey: 6217
+​​
+<prototype>: Object { … }
+​
+//   17: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "HsEVvbyXTwfRDdeQKdt5"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.599931, _long: 13.001593 }
+​​
+targetKey: 3442
+​​
+<prototype>: Object { … }
+​
+//   18: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "E2otgZhWf5LthHBo4k3Q"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.593807999999996, _long: 13.000754299999999 }
+​​
+targetKey: 3067
+​​
+<prototype>: Object { … }
+​
+//   19: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "FTlfcI7nmroyB7UczxE4"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.5992098, _long: 13.0102929 }
+​​
+targetKey: 8295
+​​
+<prototype>: Object { … }
+​
+//   20: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "iBZIuk3ediPCxkN9qFX2"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.606992, _long: 12.998979 }
+​​
+targetKey: 4368
+​​
+<prototype>: Object { … }
+​
+//   21: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "bbjbBkwzkKGUPitfcCpL"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.607234, _long: 12.995025 }
+​​
+targetKey: 4802
+​​
+<prototype>: Object { … }
+​
+//   22: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "7ahR67LZVSxHbPQTbmyb"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.604627, _long: 13.001439 }
+​​
+targetKey: 7011
+​​
+<prototype>: Object { … }
+​
+//   23: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "RZEzX1gA1ezfnmqpGMuu"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.599669, _long: 12.99844 }
+​​
+targetKey: 305
+​​
+<prototype>: Object { … }
+​
+//   24: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "4ie8lv9JqjQXgdcOBkop"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.591777, _long: 13.000259 }
+​​
+targetKey: 6199
+​​
+<prototype>: Object { … }
+​
+//   25: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "XsbyEbI1JIcYZwraS3xd"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.602274, _long: 13.001876 }
+​​
+targetKey: 3958
+​​
+<prototype>: Object { … }
+​
+//   26: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "LOeI8g9uSj74IfGoQ2YJ"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.608371, _long: 13.005805 }
+​​
+targetKey: 4667
+​​
+<prototype>: Object { … }
+​
+//   27: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "aKtl8ZQj8iD91DeYZEF0"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.605601, _long: 12.991462 }
+​​
+targetKey: 9430
+​​
+<prototype>: Object { … }
+​
+//   28: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "t7GdsZ3Dr9LBfulWwzTu"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.606747, _long: 13.00305 }
+​​
+targetKey: 9483
+​​
+<prototype>: Object { … }
+​
+//  29: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "fTOTDL6lImxVUlBMUIlU"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.605545, _long: 13.001262 }
+​​
+targetKey: 9396
+​​
+<prototype>: Object { … }
+​
+//   30: {…}
+​​
+contains: Object { cash: 500 }
+​​
+id: "SxXDX7AvuWPsnlE2P8HN"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.602819, _long: 13.000514 }
+​​
+targetKey: 41
+​​
+<prototype>: Object { … }
+​
+//   31: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "fZ71EQAtIqVHHoagibW4"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.605532, _long: 13.005725 }
+​​
+targetKey: 9889
+​​
+<prototype>: Object { … }
+​
+//   32: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "CCg9qeKfGEl0typALaT7"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.603019, _long: 12.996292 }
+​​
+targetKey: 5043
+​​
+<prototype>: Object { … }
+​
+//   33: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "wJGYuJEFx4MWDyBZf7Qk"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.5985559, _long: 13.007002799999999 }
+​​
+targetKey: 8467
+​​
+<prototype>: Object { … }
+​
+//   34: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "QeY5APTy74jwPKUwaHSV"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.603139, _long: 13.007269 }
+​​
+targetKey: 4243
+​​
+<prototype>: Object { … }
+​
+//   35: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "xi53ORVn80gkmzTDN2Ui"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.605313, _long: 12.997142 }
+​​
+targetKey: 8398
+​​
+<prototype>: Object { … }
+​
+//   36: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "lU0TadikB1Z6GZc9RJX8"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.6002404, _long: 13.006120699999999 }
+​​
+targetKey: 2288
+​​
+<prototype>: Object { … }
+​
+//   37: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "TVdGXXl3sjIkjqMQPHsB"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.602529, _long: 12.994744 }
+​​
+targetKey: 613
+​​
+<prototype>: Object { … }
+​
+//   38: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "6U1WUeKj5D3TFYCr7Dwp"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.601134, _long: 13.000858 }
+​​
+targetKey: 429
+​​
+<prototype>: Object { … }
+​
+//   39: {…}
+​​
+contains: Object { artefact: "an old falafel scoop", points: 200 }
+​​
+id: "QeFot2Nrv4Adyxeq6PcI"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.603776, _long: 12.999223 }
+​​
+targetKey: 2755
+​​
+<prototype>: Object { … }
+​
+//   40: {…}
+​​
+contains: Object { artefact: "Some old falafel spices", points: 200 }
+​​
+id: "dV8Q6eyy6xOahFxLhyvJ"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.603002, _long: 12.986349 }
+​​
+targetKey: 5305
+​​
+<prototype>: Object { … }
+​
+//   41: {…}
+​​
+contains: Object { artefact: "Some old falafel spices", points: 200 }
+​​
+id: "GkDjADec8aFEhOuZUahq"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.605245, _long: 12.999082 }
+​​
+targetKey: 1749
+​​
+<prototype>: Object { … }
+​
+//   42: {…}
+​​
+contains: Object { artefact: "Some old falafel spices", points: 200 }
+​​
+id: "8cOv1ivWY3fmi3xaP7qQ"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.609328, _long: 12.995692 }
+​​
+targetKey: 5298
+​​
+<prototype>: Object { … }
+​
+//   43: {…}
+​​
+contains: Object { artefact: "Some old falafel spices", points: 200 }
+​​
+id: "kMXpRnNKw29n5qScE4m5"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.59574, _long: 12.998708 }
+​​
+targetKey: 9789
+​​
+<prototype>: Object { … }
+​
+//   44: {…}
+​​
+contains: Object { artefact: "Some old falafel spices", points: 200 }
+​​
+id: "vgCe2QAbZMWz2yDPSwZG"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.599101, _long: 12.999779 }
+​​
+targetKey: 3457
+​​
+<prototype>: Object { … }
+​
+//   45: {…}
+​​
+contains: Object { artefact: "Some old falafel spices", points: 200 }
+​​
+id: "hIB9VVuuFGpSAWP9DS4W"
+​​
+locked: false
+​​
+opened: false
+​​
+position: Object { _lat: 55.606932, _long: 12.997486 }
+​​
+targetKey: 3587
+​​
+<prototype>: Object { … }
+​
+length: 46
+​
+<prototype>: Array []
+functions.js:177:12
+
+​
+
